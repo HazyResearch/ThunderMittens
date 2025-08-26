@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91C441472CF7B67300DE55ED /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C441462CF7B67300DE55ED /* MetalPerformanceShaders.framework */; };
+		91C441492CF7B67900DE55ED /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C441482CF7B67900DE55ED /* Metal.framework */; };
+		91C442F42CF7C2C800DE55ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C4414A2CF7B68200DE55ED /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91C420F72CF7ACEB00DE55ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91C420F92CF7ACEB00DE55ED /* ThunderMittens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThunderMittens; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C441462CF7B67300DE55ED /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		91C441482CF7B67900DE55ED /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		91C4414A2CF7B68200DE55ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		91C421B32CF7AD3700DE55ED /* Exceptions for "ThunderMittens" folder in "ThunderMittens" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			additionalCompilerFlagsByRelativePath = {
+				include/common/base_ops.metal = "-Ofast";
+				include/common/base_types.metal = "-Ofast";
+				include/common/common.metal = "-Ofast";
+				include/common/utils.metal = "-Ofast";
+				include/ops/group/group.metal = "-Ofast";
+				include/ops/ops.metal = "-Ofast";
+				include/ops/warp/memory/memory.metal = "-Ofast";
+				include/ops/warp/memory/tile/complex/complex_global_to_register.metal = "-Ofast";
+				include/ops/warp/memory/tile/complex/complex_global_to_shared.metal = "-Ofast";
+				include/ops/warp/memory/tile/complex/complex_shared_to_register.metal = "-Ofast";
+				include/ops/warp/memory/tile/global_to_register.metal = "-Ofast";
+				include/ops/warp/memory/tile/global_to_shared.metal = "-Ofast";
+				include/ops/warp/memory/tile/shared_to_register.metal = "-Ofast";
+				include/ops/warp/memory/tile/tile.metal = "-Ofast";
+				include/ops/warp/memory/util/util.metal = "-Ofast";
+				include/ops/warp/memory/vec/global_to_register.metal = "-Ofast";
+				include/ops/warp/memory/vec/global_to_shared.metal = "-Ofast";
+				include/ops/warp/memory/vec/shared_to_register.metal = "-Ofast";
+				include/ops/warp/memory/vec/vec.metal = "-Ofast";
+				include/ops/warp/register/register.metal = "-Ofast";
+				include/ops/warp/register/tile/conversions.metal = "-Ofast";
+				include/ops/warp/register/tile/maps.metal = "-Ofast";
+				include/ops/warp/register/tile/mma.metal = "-Ofast";
+				include/ops/warp/register/tile/reductions.metal = "-Ofast";
+				include/ops/warp/register/tile/tile.metal = "-Ofast";
+				include/ops/warp/register/vec/conversions.metal = "-Ofast";
+				include/ops/warp/register/vec/maps.metal = "-Ofast";
+				include/ops/warp/register/vec/reductions.metal = "-Ofast";
+				include/ops/warp/register/vec/vec.metal = "-Ofast";
+				include/ops/warp/shared/shared.metal = "-Ofast";
+				include/ops/warp/shared/tile/conversions.metal = "-Ofast";
+				include/ops/warp/shared/tile/maps.metal = "-Ofast";
+				include/ops/warp/shared/tile/reductions.metal = "-Ofast";
+				include/ops/warp/shared/tile/tile.metal = "-Ofast";
+				include/ops/warp/shared/vec/conversions.metal = "-Ofast";
+				include/ops/warp/shared/vec/maps.metal = "-Ofast";
+				include/ops/warp/shared/vec/reductions.metal = "-Ofast";
+				include/ops/warp/shared/vec/vec.metal = "-Ofast";
+				include/ops/warp/warp.metal = "-Ofast";
+				include/tk.metal = "-Ofast";
+				include/types/global/cgl.metal = "-Ofast";
+				include/types/global/gl.metal = "-Ofast";
+				include/types/global/global.metal = "-Ofast";
+				include/types/global/util.metal = "-Ofast";
+				include/types/register/crt.metal = "-Ofast";
+				include/types/register/crv.metal = "-Ofast";
+				include/types/register/register.metal = "-Ofast";
+				include/types/register/rt.metal = "-Ofast";
+				include/types/register/rt_base.metal = "-Ofast";
+				include/types/register/rt_layout.metal = "-Ofast";
+				include/types/register/rv.metal = "-Ofast";
+				include/types/register/rv_layout.metal = "-Ofast";
+				include/types/shared/cst.metal = "-Ofast";
+				include/types/shared/csv.metal = "-Ofast";
+				include/types/shared/shared.metal = "-Ofast";
+				include/types/shared/st.metal = "-Ofast";
+				include/types/shared/sv.metal = "-Ofast";
+				include/types/types.metal = "-Ofast";
+				kernels/add_rt/add_rt.metal = "-Ofast";
+				kernels/attn_fwd/attn_fwd.metal = "-Ofast";
+				kernels/matmul_custom/matmul_custom.metal = "-Ofast";
+			};
+			membershipExceptions = (
+				include/ops/group/memory/memory.metal,
+				include/ops/group/memory/tile/global_to_register.metal,
+				include/ops/group/memory/tile/global_to_shared.metal,
+				include/ops/group/memory/tile/shared_to_register.metal,
+				include/ops/group/memory/tile/tile.metal,
+				include/ops/group/memory/vec/global_to_register.metal,
+				include/ops/group/memory/vec/global_to_shared.metal,
+				include/ops/group/memory/vec/shared_to_register.metal,
+				include/ops/group/memory/vec/vec.metal,
+				include/ops/group/shared/shared.metal,
+				include/ops/group/shared/tile/conversions.metal,
+				include/ops/group/shared/tile/maps.metal,
+				include/ops/group/shared/tile/reductions.metal,
+				include/ops/group/shared/tile/tile.metal,
+				include/ops/group/shared/vec/conversions.metal,
+				include/ops/group/shared/vec/maps.metal,
+				include/ops/group/shared/vec/vec.metal,
+				kernels/add_rt/add_rt.cpp,
+				kernels/attn_fwd/attn_fwd.cpp,
+				kernels/bindings.cpp,
+				"kernels/build/lib.macosx-11.0-arm64-cpython-312/tk/libmlx_ext.dylib",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/add_rt/add_rt.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/add_rt/add_rt.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/attn_fwd/attn_fwd.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/attn_fwd/attn_fwd.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/bindings.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/bindings.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/build.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/compiler_depend.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/depend.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/flags.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/matmul_custom/matmul_custom.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/matmul_custom/matmul_custom.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/_ext.dir/progress.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/3.30.4/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/3.30.4/CompilerIdCXX/CMakeCXXCompilerId.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext_metallib.dir/build.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext_metallib.dir/compiler_depend.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext_metallib.dir/progress.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/add_rt/add_rt.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/add_rt/add_rt.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/attn_fwd/attn_fwd.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/attn_fwd/attn_fwd.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/build.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/compiler_depend.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/depend.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/flags.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/matmul_custom/matmul_custom.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/matmul_custom/matmul_custom.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/mlx_ext.dir/progress.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/build.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/compiler_depend.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/depend.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/flags.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/progress.make",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/common.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/common.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/error.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/error.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/implicit.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/implicit.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_enum.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_enum.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_func.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_func.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_internals.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_internals.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_ndarray.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_ndarray.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_static_property.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_static_property.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_type.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/nb_type.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/trampoline.cpp.o",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/CMakeFiles/nanobind-static.dir/Users/connertakehana/miniforge3/lib/python3.12/site-packages/nanobind/src/trampoline.cpp.o.d",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/libnanobind-static.a",
+				"kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext/Makefile",
+				kernels/matmul_custom/matmul_custom.cpp,
+				kernels/tk/libmlx_ext.dylib,
+				mlx/benchmarks/cpp/autograd.cpp,
+				mlx/benchmarks/cpp/compare_devices.cpp,
+				mlx/benchmarks/cpp/irregular_strides.cpp,
+				mlx/benchmarks/cpp/single_ops.cpp,
+				mlx/docs/Makefile,
+				mlx/examples/cpp/distributed.cpp,
+				mlx/examples/cpp/linear_regression.cpp,
+				mlx/examples/cpp/logistic_regression.cpp,
+				mlx/examples/cpp/metal_capture.cpp,
+				mlx/examples/cpp/tutorial.cpp,
+				mlx/examples/extensions/axpby/axpby.cpp,
+				mlx/examples/extensions/axpby/axpby.metal,
+				mlx/examples/extensions/bindings.cpp,
+				mlx/mlx/allocator.cpp,
+				mlx/mlx/array.cpp,
+				mlx/mlx/backend/accelerate/conv.cpp,
+				mlx/mlx/backend/accelerate/matmul.cpp,
+				mlx/mlx/backend/accelerate/primitives.cpp,
+				mlx/mlx/backend/accelerate/quantized.cpp,
+				mlx/mlx/backend/accelerate/reduce.cpp,
+				mlx/mlx/backend/accelerate/softmax.cpp,
+				mlx/mlx/backend/common/arg_reduce.cpp,
+				mlx/mlx/backend/common/binary.cpp,
+				mlx/mlx/backend/common/cholesky.cpp,
+				mlx/mlx/backend/common/common.cpp,
+				mlx/mlx/backend/common/compiled_cpu.cpp,
+				mlx/mlx/backend/common/compiled_nocpu.cpp,
+				mlx/mlx/backend/common/compiled.cpp,
+				mlx/mlx/backend/common/conv.cpp,
+				mlx/mlx/backend/common/copy.cpp,
+				mlx/mlx/backend/common/default_primitives.cpp,
+				mlx/mlx/backend/common/eigh.cpp,
+				mlx/mlx/backend/common/erf.cpp,
+				mlx/mlx/backend/common/fft.cpp,
+				mlx/mlx/backend/common/hadamard.cpp,
+				mlx/mlx/backend/common/indexing.cpp,
+				mlx/mlx/backend/common/inverse.cpp,
+				mlx/mlx/backend/common/load.cpp,
+				mlx/mlx/backend/common/masked_mm.cpp,
+				mlx/mlx/backend/common/primitives.cpp,
+				mlx/mlx/backend/common/qrf.cpp,
+				mlx/mlx/backend/common/quantized.cpp,
+				mlx/mlx/backend/common/reduce_utils.cpp,
+				mlx/mlx/backend/common/reduce.cpp,
+				mlx/mlx/backend/common/scan.cpp,
+				mlx/mlx/backend/common/select.cpp,
+				mlx/mlx/backend/common/slicing.cpp,
+				mlx/mlx/backend/common/softmax.cpp,
+				mlx/mlx/backend/common/sort.cpp,
+				mlx/mlx/backend/common/svd.cpp,
+				mlx/mlx/backend/common/threefry.cpp,
+				mlx/mlx/backend/common/utils.cpp,
+				mlx/mlx/backend/metal/allocator.cpp,
+				mlx/mlx/backend/metal/binary.cpp,
+				mlx/mlx/backend/metal/compiled.cpp,
+				mlx/mlx/backend/metal/conv.cpp,
+				mlx/mlx/backend/metal/copy.cpp,
+				mlx/mlx/backend/metal/custom_kernel.cpp,
+				mlx/mlx/backend/metal/device.cpp,
+				mlx/mlx/backend/metal/distributed.cpp,
+				mlx/mlx/backend/metal/event.cpp,
+				mlx/mlx/backend/metal/fft.cpp,
+				mlx/mlx/backend/metal/hadamard.cpp,
+				mlx/mlx/backend/metal/indexing.cpp,
+				mlx/mlx/backend/metal/jit_kernels.cpp,
+				mlx/mlx/backend/metal/kernels/arange.metal,
+				mlx/mlx/backend/metal/kernels/arg_reduce.metal,
+				mlx/mlx/backend/metal/kernels/binary_two.metal,
+				mlx/mlx/backend/metal/kernels/binary.metal,
+				mlx/mlx/backend/metal/kernels/conv.metal,
+				mlx/mlx/backend/metal/kernels/copy.metal,
+				mlx/mlx/backend/metal/kernels/fft.metal,
+				mlx/mlx/backend/metal/kernels/gemv_masked.metal,
+				mlx/mlx/backend/metal/kernels/gemv.metal,
+				mlx/mlx/backend/metal/kernels/layer_norm.metal,
+				mlx/mlx/backend/metal/kernels/quantized.metal,
+				mlx/mlx/backend/metal/kernels/random.metal,
+				mlx/mlx/backend/metal/kernels/reduce.metal,
+				mlx/mlx/backend/metal/kernels/rms_norm.metal,
+				mlx/mlx/backend/metal/kernels/rope.metal,
+				mlx/mlx/backend/metal/kernels/scaled_dot_product_attention.metal,
+				mlx/mlx/backend/metal/kernels/scan.metal,
+				mlx/mlx/backend/metal/kernels/softmax.metal,
+				mlx/mlx/backend/metal/kernels/sort.metal,
+				mlx/mlx/backend/metal/kernels/steel/attn/kernels/steel_attention.metal,
+				mlx/mlx/backend/metal/kernels/steel/conv/kernels/steel_conv_general.metal,
+				mlx/mlx/backend/metal/kernels/steel/conv/kernels/steel_conv.metal,
+				mlx/mlx/backend/metal/kernels/steel/gemm/kernels/steel_gemm_fused.metal,
+				mlx/mlx/backend/metal/kernels/steel/gemm/kernels/steel_gemm_masked.metal,
+				mlx/mlx/backend/metal/kernels/steel/gemm/kernels/steel_gemm_splitk.metal,
+				mlx/mlx/backend/metal/kernels/ternary.metal,
+				mlx/mlx/backend/metal/kernels/unary.metal,
+				mlx/mlx/backend/metal/matmul.cpp,
+				mlx/mlx/backend/metal/metal.cpp,
+				mlx/mlx/backend/metal/nojit_kernels.cpp,
+				mlx/mlx/backend/metal/normalization.cpp,
+				mlx/mlx/backend/metal/primitives.cpp,
+				mlx/mlx/backend/metal/quantized.cpp,
+				mlx/mlx/backend/metal/reduce.cpp,
+				mlx/mlx/backend/metal/resident.cpp,
+				mlx/mlx/backend/metal/rope.cpp,
+				mlx/mlx/backend/metal/scaled_dot_product_attention.cpp,
+				mlx/mlx/backend/metal/scan.cpp,
+				mlx/mlx/backend/metal/slicing.cpp,
+				mlx/mlx/backend/metal/softmax.cpp,
+				mlx/mlx/backend/metal/sort.cpp,
+				mlx/mlx/backend/metal/ternary.cpp,
+				mlx/mlx/backend/metal/unary.cpp,
+				mlx/mlx/backend/metal/utils.cpp,
+				mlx/mlx/backend/no_cpu/primitives.cpp,
+				mlx/mlx/backend/no_metal/allocator.cpp,
+				mlx/mlx/backend/no_metal/event.cpp,
+				mlx/mlx/backend/no_metal/metal.cpp,
+				mlx/mlx/backend/no_metal/primitives.cpp,
+				mlx/mlx/compile.cpp,
+				mlx/mlx/device.cpp,
+				mlx/mlx/distributed/mpi/mpi.cpp,
+				mlx/mlx/distributed/no_distributed.cpp,
+				mlx/mlx/distributed/ops.cpp,
+				mlx/mlx/distributed/primitives.cpp,
+				mlx/mlx/dtype.cpp,
+				mlx/mlx/einsum.cpp,
+				mlx/mlx/fast.cpp,
+				mlx/mlx/fft.cpp,
+				mlx/mlx/graph_utils.cpp,
+				mlx/mlx/io/gguf_quants.cpp,
+				mlx/mlx/io/gguf.cpp,
+				mlx/mlx/io/load.cpp,
+				mlx/mlx/io/no_gguf.cpp,
+				mlx/mlx/io/no_safetensors.cpp,
+				mlx/mlx/io/safetensors.cpp,
+				mlx/mlx/linalg.cpp,
+				mlx/mlx/ops.cpp,
+				mlx/mlx/primitives.cpp,
+				mlx/mlx/random.cpp,
+				mlx/mlx/scheduler.cpp,
+				mlx/mlx/transforms.cpp,
+				mlx/mlx/utils.cpp,
+				mlx/python/mlx/lib/libmlx.dylib,
+				mlx/python/src/array.cpp,
+				mlx/python/src/constants.cpp,
+				mlx/python/src/convert.cpp,
+				mlx/python/src/device.cpp,
+				mlx/python/src/distributed.cpp,
+				mlx/python/src/fast.cpp,
+				mlx/python/src/fft.cpp,
+				mlx/python/src/indexing.cpp,
+				mlx/python/src/linalg.cpp,
+				mlx/python/src/load.cpp,
+				mlx/python/src/metal.cpp,
+				mlx/python/src/mlx.cpp,
+				mlx/python/src/ops.cpp,
+				mlx/python/src/random.cpp,
+				mlx/python/src/stream.cpp,
+				mlx/python/src/transforms.cpp,
+				mlx/python/src/trees.cpp,
+				mlx/python/src/utils.cpp,
+				mlx/tests/allocator_tests.cpp,
+				mlx/tests/arg_reduce_tests.cpp,
+				mlx/tests/array_tests.cpp,
+				mlx/tests/autograd_tests.cpp,
+				mlx/tests/blas_tests.cpp,
+				mlx/tests/compile_tests.cpp,
+				mlx/tests/creations_tests.cpp,
+				mlx/tests/custom_vjp_tests.cpp,
+				mlx/tests/device_tests.cpp,
+				mlx/tests/einsum_tests.cpp,
+				mlx/tests/eval_tests.cpp,
+				mlx/tests/fft_tests.cpp,
+				mlx/tests/linalg_tests.cpp,
+				mlx/tests/load_tests.cpp,
+				mlx/tests/metal_tests.cpp,
+				mlx/tests/ops_tests.cpp,
+				mlx/tests/random_tests.cpp,
+				mlx/tests/scheduler_tests.cpp,
+				mlx/tests/tests.cpp,
+				mlx/tests/utils_tests.cpp,
+				mlx/tests/vmap_tests.cpp,
+			);
+			target = 91C420F82CF7ACEB00DE55ED /* ThunderMittens */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		91C420FB2CF7ACEB00DE55ED /* ThunderMittens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				91C421B32CF7AD3700DE55ED /* Exceptions for "ThunderMittens" folder in "ThunderMittens" target */,
+			);
+			path = ThunderMittens;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91C420F62CF7ACEB00DE55ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C442F42CF7C2C800DE55ED /* Foundation.framework in Frameworks */,
+				91C441492CF7B67900DE55ED /* Metal.framework in Frameworks */,
+				91C441472CF7B67300DE55ED /* MetalPerformanceShaders.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91C420F02CF7ACEB00DE55ED = {
+			isa = PBXGroup;
+			children = (
+				91C420FB2CF7ACEB00DE55ED /* ThunderMittens */,
+				91C441452CF7B67300DE55ED /* Frameworks */,
+				91C420FA2CF7ACEB00DE55ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91C420FA2CF7ACEB00DE55ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C420F92CF7ACEB00DE55ED /* ThunderMittens */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C441452CF7B67300DE55ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C4414A2CF7B68200DE55ED /* Foundation.framework */,
+				91C441482CF7B67900DE55ED /* Metal.framework */,
+				91C441462CF7B67300DE55ED /* MetalPerformanceShaders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91C420F82CF7ACEB00DE55ED /* ThunderMittens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C421002CF7ACEB00DE55ED /* Build configuration list for PBXNativeTarget "ThunderMittens" */;
+			buildPhases = (
+				91C420F52CF7ACEB00DE55ED /* Sources */,
+				91C420F62CF7ACEB00DE55ED /* Frameworks */,
+				91C420F72CF7ACEB00DE55ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				91C420FB2CF7ACEB00DE55ED /* ThunderMittens */,
+			);
+			name = ThunderMittens;
+			packageProductDependencies = (
+			);
+			productName = ThunderMittens;
+			productReference = 91C420F92CF7ACEB00DE55ED /* ThunderMittens */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91C420F12CF7ACEB00DE55ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					91C420F82CF7ACEB00DE55ED = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 91C420F42CF7ACEB00DE55ED /* Build configuration list for PBXProject "ThunderMittens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91C420F02CF7ACEB00DE55ED;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 91C420FA2CF7ACEB00DE55ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91C420F82CF7ACEB00DE55ED /* ThunderMittens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91C420F52CF7ACEB00DE55ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91C420FE2CF7ACEB00DE55ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91C420FF2CF7ACEB00DE55ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91C421012CF7ACEB00DE55ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThunderMittens/kernels/build/lib.macosx-11.0-arm64-cpython-312/tk",
+					"$(PROJECT_DIR)/ThunderMittens/kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext",
+					"$(PROJECT_DIR)/ThunderMittens/kernels/tk",
+					"$(PROJECT_DIR)/ThunderMittens/mlx/python/mlx/lib",
+				);
+				MTL_COMPILER_FLAGS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/ThunderMittens/include";
+				MTL_MATH_FP32_FUNCTIONS = FAST;
+				MTL_MATH_MODE = FAST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91C421022CF7ACEB00DE55ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThunderMittens/kernels/build/lib.macosx-11.0-arm64-cpython-312/tk",
+					"$(PROJECT_DIR)/ThunderMittens/kernels/build/temp.macosx-11.0-arm64-cpython-312/tk._ext",
+					"$(PROJECT_DIR)/ThunderMittens/kernels/tk",
+					"$(PROJECT_DIR)/ThunderMittens/mlx/python/mlx/lib",
+				);
+				MTL_COMPILER_FLAGS = "";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/ThunderMittens/include";
+				MTL_MATH_FP32_FUNCTIONS = FAST;
+				MTL_MATH_MODE = FAST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91C420F42CF7ACEB00DE55ED /* Build configuration list for PBXProject "ThunderMittens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C420FE2CF7ACEB00DE55ED /* Debug */,
+				91C420FF2CF7ACEB00DE55ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C421002CF7ACEB00DE55ED /* Build configuration list for PBXNativeTarget "ThunderMittens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C421012CF7ACEB00DE55ED /* Debug */,
+				91C421022CF7ACEB00DE55ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91C420F12CF7ACEB00DE55ED /* Project object */;
+}
