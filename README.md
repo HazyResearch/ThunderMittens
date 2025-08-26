@@ -1,9 +1,13 @@
 # ThunderMittens
-![ThunderMittens](https://github.com/user-attachments/assets/f539ee38-e4fa-4908-ac8a-3c1b0eb999bd)
-
-## Overview
 
 ThunderMittens is an Apple Metal Shading Language (MSL) port for the [ThunderKittens](github.com/HazyResearch/ThunderKittens/) framework.
+
+<div align="center" >
+    <img src="assets/mittens.jpeg" height=350 alt="ThunderKittens logo" style="margin-bottom:px"/> 
+</div>
+
+<br>
+<br>
 
 ## Project Structure
 
@@ -46,7 +50,7 @@ For using ThunderKittens kernels within MLX in Python:
 
 ## References
 
-Please see [our blog post](https://hazyresearch.stanford.edu/blog/2024-11-28-tk-mlx) to learn more about this work. 
+Please see [our blog post](https://hazyresearch.stanford.edu/blog/2024-11-28-tk-mlx) to learn more about this work. Please checkout [our paper](https://arxiv.org/abs/2410.20399) to learn more about the ThunderKittens project. 
 
 
 
